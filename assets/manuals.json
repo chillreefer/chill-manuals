@@ -575,61 +575,21 @@
     {
       "name": "CA Troubleshoot",
       "brand": "Daikin",
-      "filename": "CA_Troubleshoot.docx",
+      "filename": "CA_Troubleshoot.pdf",
       "originalExtension": ".docx",
-      "extension": ".docx",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/CA_Troubleshoot.docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/CA_Troubleshoot.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
       "version": "1.0"
     },
     {
       "name": "Chartless function",
       "brand": "Daikin",
-      "filename": "Chartless_function.ppt",
+      "filename": "Chartless_function.pdf",
       "originalExtension": ".ppt",
-      "extension": ".ppt",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Chartless_function.ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Chartless_function.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
-      "version": "1.0"
-    },
-    {
-      "name": "Daikin LX10F Troubleshoot",
-      "brand": "Daikin",
-      "filename": "Daikin_LX10F_Troubleshoot.docx",
-      "originalExtension": ".docx",
-      "extension": ".docx",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_LX10F_Troubleshoot.docx",
-      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
-      "version": "1.0"
-    },
-    {
-      "name": "Daikin Troubleshoot 2",
-      "brand": "Daikin",
-      "filename": "Daikin_Troubleshoot_2.docx",
-      "originalExtension": ".docx",
-      "extension": ".docx",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Troubleshoot_2.docx",
-      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
-      "version": "1.0"
-    },
-    {
-      "name": "Daikin Troubleshoot",
-      "brand": "Daikin",
-      "filename": "Daikin_Troubleshoot.docx",
-      "originalExtension": ".docx",
-      "extension": ".docx",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Troubleshoot.docx",
-      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
-      "version": "1.0"
-    },
-    {
-      "name": "Daikin Zestia Troubleshoot",
-      "brand": "Daikin",
-      "filename": "Daikin_Zestia_Troubleshoot.docx",
-      "originalExtension": ".docx",
-      "extension": ".docx",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Zestia_Troubleshoot.docx",
-      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
       "version": "1.0"
     },
     {
@@ -693,6 +653,16 @@
       "version": "1.0"
     },
     {
+      "name": "Daikin LX10F Troubleshoot",
+      "brand": "Daikin",
+      "filename": "Daikin_LX10F_Troubleshoot.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_LX10F_Troubleshoot.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
       "name": "Daikin Repair Pocket Manual",
       "brand": "Daikin",
       "filename": "Daikin_Repair_Pocket_Manual.pdf",
@@ -713,22 +683,52 @@
       "version": "1.0"
     },
     {
+      "name": "Daikin Troubleshoot",
+      "brand": "Daikin",
+      "filename": "Daikin_Troubleshoot.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Troubleshoot.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Daikin Troubleshoot 2",
+      "brand": "Daikin",
+      "filename": "Daikin_Troubleshoot_2.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Troubleshoot_2.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Daikin Zestia Troubleshoot",
+      "brand": "Daikin",
+      "filename": "Daikin_Zestia_Troubleshoot.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Zestia_Troubleshoot.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
       "name": "Defrost",
       "brand": "Daikin",
-      "filename": "Defrost.ppt",
+      "filename": "Defrost.pdf",
       "originalExtension": ".ppt",
-      "extension": ".ppt",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Defrost.ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Defrost.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
       "version": "1.0"
     },
     {
       "name": "Different Piping Situations",
       "brand": "Daikin",
-      "filename": "Different_Piping_Situations.ppt",
+      "filename": "Different_Piping_Situations.pdf",
       "originalExtension": ".ppt",
-      "extension": ".ppt",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Different_Piping_Situations.ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Different_Piping_Situations.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
       "version": "1.0"
     },
