@@ -1365,6 +1365,16 @@
       "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Starcool/Star_Cool_Unit_CIM6_Menu_Structure.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/previews/Starcool/Star_Cool_Unit_CIM6_Menu_Structure.png",
       "version": "1.0"
+    },
+    {
+      "name": "Wiring Diagram",
+      "brand": "Starcool",
+      "filename": "Wiring_Diagram.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Starcool/Wiring_Diagram.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
     }
   ]
 }
