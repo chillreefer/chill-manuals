@@ -1,6 +1,36 @@
 {
   "Carrier": [
     {
+      "name": "CARRIER SCROLL TROUBLESHOOT 551 SERIES",
+      "brand": "Carrier",
+      "filename": "CARRIER_SCROLL_TROUBLESHOOT_551_SERIES.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Carrier/CARRIER_SCROLL_TROUBLESHOOT_551_SERIES.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
+      "name": "CARRIER SCROLL TROUBLESHOOT 561 SERIES",
+      "brand": "Carrier",
+      "filename": "CARRIER_SCROLL_TROUBLESHOOT_561_SERIES.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Carrier/CARRIER_SCROLL_TROUBLESHOOT_561_SERIES.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
+      "name": "CARRIER TROUBLESHOOT",
+      "brand": "Carrier",
+      "filename": "CARRIER_TROUBLESHOOT.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Carrier/CARRIER_TROUBLESHOOT.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
       "name": "OM T246 69NT20-274 69NT40-441-444-454",
       "brand": "Carrier",
       "filename": "OM_T246_69NT20-274_69NT40-441-444-454.pdf",
@@ -573,6 +603,66 @@
   ],
   "Daikin": [
     {
+      "name": "CA Troubleshoot",
+      "brand": "Daikin",
+      "filename": "CA_Troubleshoot.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/CA_Troubleshoot.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Chartless function",
+      "brand": "Daikin",
+      "filename": "Chartless_function.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Chartless_function.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Daikin LX10F Troubleshoot",
+      "brand": "Daikin",
+      "filename": "Daikin_LX10F_Troubleshoot.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_LX10F_Troubleshoot.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Daikin Troubleshoot 2",
+      "brand": "Daikin",
+      "filename": "Daikin_Troubleshoot_2.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Troubleshoot_2.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Daikin Troubleshoot",
+      "brand": "Daikin",
+      "filename": "Daikin_Troubleshoot.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Troubleshoot.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Daikin Zestia Troubleshoot",
+      "brand": "Daikin",
+      "filename": "Daikin_Zestia_Troubleshoot.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_Zestia_Troubleshoot.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
       "name": "Daikin-DTMS function",
       "brand": "Daikin",
       "filename": "Daikin-DTMS_function.pdf",
@@ -663,6 +753,46 @@
       "version": "1.0"
     },
     {
+      "name": "Defrost",
+      "brand": "Daikin",
+      "filename": "Defrost.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Defrost.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Different Piping Situations",
+      "brand": "Daikin",
+      "filename": "Different_Piping_Situations.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Different_Piping_Situations.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Doorsnede Scroll compressor",
+      "brand": "Daikin",
+      "filename": "Doorsnede_Scroll_compressor.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Doorsnede_Scroll_compressor.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Dryer",
+      "brand": "Daikin",
+      "filename": "Dryer.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Dryer.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
       "name": "EEV Replacement",
       "brand": "Daikin",
       "filename": "EEV_Replacement.pdf",
@@ -670,6 +800,36 @@
       "extension": ".pdf",
       "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/EEV_Replacement.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/previews/Daikin/EEV_Replacement.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Emergency Operation 1",
+      "brand": "Daikin",
+      "filename": "Emergency_Operation_1.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Emergency_Operation_1.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Emergency Operation 2",
+      "brand": "Daikin",
+      "filename": "Emergency_Operation_2.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Emergency_Operation_2.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Emergency Operation 3",
+      "brand": "Daikin",
+      "filename": "Emergency_Operation_3.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Emergency_Operation_3.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
       "version": "1.0"
     },
     {
@@ -873,6 +1033,26 @@
       "version": "1.0"
     },
     {
+      "name": "Pump Down screen",
+      "brand": "Daikin",
+      "filename": "Pump_Down_screen.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Pump_Down_screen.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Replacement of controller",
+      "brand": "Daikin",
+      "filename": "Replacement_of_controller.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Replacement_of_controller.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
       "name": "SB-12-003",
       "brand": "Daikin",
       "filename": "SB-12-003.pdf",
@@ -913,6 +1093,36 @@
       "version": "1.0"
     },
     {
+      "name": "Service port",
+      "brand": "Daikin",
+      "filename": "Service_port.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Service_port.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Structure of Unit",
+      "brand": "Daikin",
+      "filename": "Structure_of_Unit.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Structure_of_Unit.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Suction Gas Distribution",
+      "brand": "Daikin",
+      "filename": "Suction_Gas_Distribution.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Suction_Gas_Distribution.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
+      "version": "1.0"
+    },
+    {
       "name": "Troubleshooting EEV",
       "brand": "Daikin",
       "filename": "Troubleshooting_EEV.pdf",
@@ -920,6 +1130,16 @@
       "extension": ".pdf",
       "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Troubleshooting_EEV.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/previews/Daikin/Troubleshooting_EEV.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Wiring Diagram",
+      "brand": "Daikin",
+      "filename": "Wiring_Diagram.pdf",
+      "originalExtension": ".ppt",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Wiring_Diagram.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
       "version": "1.0"
     }
   ],
@@ -1072,6 +1292,16 @@
       "extension": ".pdf",
       "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Thermoking/SUPERFREEZER_CRR_DF_MPC2000_CRR_MPC2000_CRR_DF_MP_3000.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/previews/Thermoking/SUPERFREEZER_CRR_DF_MPC2000_CRR_MPC2000_CRR_DF_MP_3000.png",
+      "version": "1.0"
+    },
+    {
+      "name": "THERMOKING TROUBLESHOOT",
+      "brand": "Thermoking",
+      "filename": "THERMOKING_TROUBLESHOOT.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Thermoking/THERMOKING_TROUBLESHOOT.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
       "version": "1.0"
     },
     {
@@ -1337,6 +1567,16 @@
       "version": "1.0"
     },
     {
+      "name": "STARCOOL TROUBLESHOOT",
+      "brand": "Starcool",
+      "filename": "STARCOOL_TROUBLESHOOT.pdf",
+      "originalExtension": ".docx",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Starcool/STARCOOL_TROUBLESHOOT.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/docx.png",
+      "version": "1.0"
+    },
+    {
       "name": "Starcool - Operation Key UPD",
       "brand": "Starcool",
       "filename": "Starcool_-_Operation_Key_UPD.pdf",
@@ -1364,16 +1604,6 @@
       "extension": ".pdf",
       "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Starcool/Star_Cool_Unit_CIM6_Menu_Structure.pdf",
       "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/previews/Starcool/Star_Cool_Unit_CIM6_Menu_Structure.png",
-      "version": "1.0"
-    },
-    {
-      "name": "Wiring Diagram",
-      "brand": "Starcool",
-      "filename": "Wiring_Diagram.pdf",
-      "originalExtension": ".ppt",
-      "extension": ".pdf",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Starcool/Wiring_Diagram.pdf",
-      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/icons/ppt.png",
       "version": "1.0"
     }
   ]
