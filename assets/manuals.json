@@ -583,16 +583,6 @@
       "version": "1.0"
     },
     {
-      "name": "Daikin 100 Series Pressure Relation",
-      "brand": "Daikin",
-      "filename": "Daikin_100_Series_Pressure_Relation.pdf",
-      "originalExtension": ".pdf",
-      "extension": ".pdf",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Daikin/Daikin_100_Series_Pressure_Relation.pdf",
-      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/previews/Daikin/Daikin_100_Series_Pressure_Relation.png",
-      "version": "1.0"
-    },
-    {
       "name": "Daikin CA Control Board EC10",
       "brand": "Daikin",
       "filename": "Daikin_CA_Control_Board_EC10.pdf",
