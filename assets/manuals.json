@@ -1235,5 +1235,136 @@
       "version": "1.0"
     }
   ],
-  "Starcool": []
+  "Starcool": [
+    {
+      "name": "Alarm 306 High pressure switch",
+      "brand": "Starcool",
+      "filename": "Alarm_306_High_pressure_switch.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/Alarm_306_High_pressure_switch.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/Alarm_306_High_pressure_switch.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Alarm 623 - Loss of cooling",
+      "brand": "Starcool",
+      "filename": "Alarm_623_-_Loss_of_cooling.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/Alarm_623_-_Loss_of_cooling.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/Alarm_623_-_Loss_of_cooling.png",
+      "version": "1.0"
+    },
+    {
+      "name": "CA service manual",
+      "brand": "Starcool",
+      "filename": "CA_service_manual.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/CA_service_manual.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/CA_service_manual.png",
+      "version": "1.0"
+    },
+    {
+      "name": "CIM 5 Service Manual",
+      "brand": "Starcool",
+      "filename": "CIM_5_Service_Manual.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/CIM_5_Service_Manual.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/CIM_5_Service_Manual.png",
+      "version": "1.0"
+    },
+    {
+      "name": "CIM 6 and CA Manual",
+      "brand": "Starcool",
+      "filename": "CIM_6_and_CA_Manual.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/CIM_6_and_CA_Manual.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/CIM_6_and_CA_Manual.png",
+      "version": "1.0"
+    },
+    {
+      "name": "CIM 6 Short Form Manual",
+      "brand": "Starcool",
+      "filename": "CIM_6_Short_Form_Manual.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/CIM_6_Short_Form_Manual.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/CIM_6_Short_Form_Manual.png",
+      "version": "1.0"
+    },
+    {
+      "name": "OM SCU-40 and SCI-40",
+      "brand": "Starcool",
+      "filename": "OM_SCU-40_and_SCI-40.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/OM_SCU-40_and_SCI-40.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/OM_SCU-40_and_SCI-40.png",
+      "version": "1.0"
+    },
+    {
+      "name": "PL Starcool",
+      "brand": "Starcool",
+      "filename": "PL_Starcool.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/PL_Starcool.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/PL_Starcool.png",
+      "version": "1.0"
+    },
+    {
+      "name": "SCI CA wiring",
+      "brand": "Starcool",
+      "filename": "SCI_CA_wiring.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/SCI_CA_wiring.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/SCI_CA_wiring.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Short Form Manual Cim 6 Version 1",
+      "brand": "Starcool",
+      "filename": "Short_Form_Manual_Cim_6_Version_1.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/Short_Form_Manual_Cim_6_Version_1.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/Short_Form_Manual_Cim_6_Version_1.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Starcool - Operation Key UPD",
+      "brand": "Starcool",
+      "filename": "Starcool_-_Operation_Key_UPD.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/Starcool_-_Operation_Key_UPD.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/Starcool_-_Operation_Key_UPD.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Starcool Alarm 623 - Loss of Cooling",
+      "brand": "Starcool",
+      "filename": "Starcool_Alarm_623_-_Loss_of_Cooling.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/Starcool_Alarm_623_-_Loss_of_Cooling.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/Starcool_Alarm_623_-_Loss_of_Cooling.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Star Cool Unit CIM6 Menu Structure",
+      "brand": "Starcool",
+      "filename": "Star_Cool_Unit_CIM6_Menu_Structure.pdf",
+      "originalExtension": ".pdf",
+      "extension": ".pdf",
+      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/manuals/Starcool/Star_Cool_Unit_CIM6_Menu_Structure.pdf",
+      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/C:/Users/ursal/OneDrive/Documents/GitHub/chill-manuals/assets/previews/Starcool/Star_Cool_Unit_CIM6_Menu_Structure.png",
+      "version": "1.0"
+    }
+  ]
 }
