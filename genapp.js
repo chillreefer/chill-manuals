@@ -9,7 +9,6 @@ const iconDir = 'assets/icons';
 const outputFile = 'assets/manuals.json';
 
 const baseJsDelivr = 'https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/';
-
 const allowedExtensions = ['.pdf', '.doc', '.docx', '.ppt', '.pptx', '.xls', '.xlsx'];
 
 const sanitize = (filename) => {
@@ -18,6 +17,21 @@ const sanitize = (filename) => {
   const safeName = name.replace(/\s+/g, '_').replace(/[^a-zA-Z0-9._-]/g, '');
   return `${safeName}${ext}`;
 };
+
+// Load previous manuals.json to preserve originalExtension
+let previousManuals = {};
+if (fs.existsSync(outputFile)) {
+  try {
+    const previousData = JSON.parse(fs.readFileSync(outputFile, 'utf8'));
+    for (const brand in previousData) {
+      for (const manual of previousData[brand]) {
+        previousManuals[manual.filename] = manual.originalExtension;
+      }
+    }
+  } catch (e) {
+    console.warn('⚠️ Failed to read previous manuals.json:', e.message);
+  }
+}
 
 const result = {};
 
@@ -41,70 +55,89 @@ brands.forEach((brand) => {
 
   result[brand] = [];
 
-  files.forEach(file => {
-    let fullPath = path.join(brandManualPath, file);
-    const originalExtMatch = file.match(/\.(docx|pptx|xlsx|doc|ppt|xls)$/i);
-    const isNativePDF = path.extname(file).toLowerCase() === '.pdf';
+  files.forEach(originalFile => {
+  let fullPath = path.join(brandManualPath, originalFile);
+  let extname = path.extname(originalFile).toLowerCase();
+  let base = path.basename(originalFile, extname);
 
-    const originalExt = originalExtMatch ? originalExtMatch[0].toLowerCase() : null;
-    const sanitizedName = sanitize(path.basename(file, path.extname(file)));
+  const isOffice = allowedExtensions.includes(extname) && extname !== '.pdf';
+  const isAlreadyRenamed = originalFile.match(/\.(docx|pptx|xlsx|doc|ppt|xls)\.pdf$/i);
+  let originalExt = '.pdf';
+  let targetFilename = '';
 
-    let targetFilename = sanitizedName;
-    if (originalExt && !file.endsWith('.pdf')) {
-      // rename Office file to .pdf suffix
-      targetFilename += `.pdf`;
-      const targetPath = path.join(brandManualPath, targetFilename);
+  // Rename Office files: example.docx → example.docx.pdf
+  if (isOffice) {
+    originalExt = extname;
+    const sanitizedBase = sanitize(base);
+    targetFilename = `${sanitizedBase}${originalExt}.pdf`;
 
-      // Only rename if needed
-      if (file !== targetFilename) {
-        fs.renameSync(fullPath, targetPath);
-        console.log(`📦 Renamed Office file: ${file} → ${targetFilename}`);
-      }
-
-      file = targetFilename;
-      fullPath = path.join(brandManualPath, file);
-    } else {
-      file = sanitize(file);
-      const sanitizedPath = path.join(brandManualPath, file);
-      if (fullPath !== sanitizedPath) {
-        fs.renameSync(fullPath, sanitizedPath);
-        fullPath = sanitizedPath;
-        console.log(`🧼 Renamed: ${path.basename(fullPath)} → ${file}`);
-      }
+    const targetPath = path.join(brandManualPath, targetFilename);
+    if (originalFile !== targetFilename) {
+      fs.renameSync(fullPath, targetPath);
+      console.log(`📦 Renamed Office file: ${originalFile} → ${targetFilename}`);
     }
+    fullPath = targetPath;
+  }
+  // Handle files already named like docx.pdf
+  else if (isAlreadyRenamed) {
+    const match = originalFile.match(/\.(docx|pptx|xlsx|doc|ppt|xls)\.pdf$/i);
+    originalExt = `.${match[1].toLowerCase()}`;
+    const sanitizedBase = sanitize(path.basename(originalFile, '.pdf'));
+    targetFilename = `${sanitizedBase}.pdf`;
 
-    const cleanName = sanitizedName.replace(/_/g, ' ');
-
-    const previewFileName = file.replace(/\.pdf$/i, '.png');
-    const previewFullPath = path.join(brandPreviewPath, previewFileName);
-    const previewUrl = fs.existsSync(previewFullPath)
-      ? `${baseJsDelivr}${previewDir}/${brand}/${previewFileName}`
-      : originalExt
-        ? `${baseJsDelivr}${iconDir}/${originalExt.replace('.', '')}.png`
-        : null;
-
-    if (!originalExt && !fs.existsSync(previewFullPath)) {
-      try {
-        console.log(`📄 Generating preview for ${file}...`);
-        execSync(`magick -density 150 "${fullPath}[0]" -quality 90 "${previewFullPath}"`);
-      } catch (err) {
-        console.error(`❌ Failed to generate preview for ${file}:`, err.message);
-      }
+    const targetPath = path.join(brandManualPath, targetFilename);
+    if (originalFile !== targetFilename) {
+      fs.renameSync(fullPath, targetPath);
+      console.log(`🧼 Renamed: ${originalFile} → ${targetFilename}`);
     }
+    fullPath = targetPath;
+  }
+  // Native PDFs
+  else {
+    originalExt = '.pdf';
+    const sanitized = sanitize(originalFile);
+    const targetPath = path.join(brandManualPath, sanitized);
+    if (originalFile !== sanitized) {
+      fs.renameSync(fullPath, targetPath);
+      console.log(`🧼 Renamed: ${originalFile} → ${sanitized}`);
+    }
+    fullPath = targetPath;
+    targetFilename = sanitized;
+  }
 
-    result[brand].push({
-      name: cleanName,
-      brand,
-      filename: file,
-      originalExtension: originalExt || '.pdf',
-      extension: '.pdf',
-      url: `${baseJsDelivr}${baseDir}/${brand}/${file}`,
-      previewUrl,
-      version: '1.0'
-    });
+  const cleanName = path.basename(targetFilename, '.pdf').replace(/_/g, ' ');
+  const previewFileName = targetFilename.replace(/\.pdf$/i, '.png');
+  const previewFullPath = path.join(brandPreviewPath, previewFileName);
+  const previewUrl = fs.existsSync(previewFullPath)
+    ? `${baseJsDelivr}${previewDir}/${brand}/${previewFileName}`
+    : originalExt
+      ? `${baseJsDelivr}${iconDir}/${originalExt.replace('.', '')}.png`
+      : null;
+
+  // Only generate preview if native PDF
+  if (!fs.existsSync(previewFullPath) && originalExt === '.pdf') {
+    try {
+      console.log(`📄 Generating preview for ${targetFilename}...`);
+      execSync(`magick -density 150 "${fullPath}[0]" -quality 90 "${previewFullPath}"`);
+    } catch (err) {
+      console.error(`❌ Failed to generate preview for ${targetFilename}:`, err.message);
+    }
+  }
+
+  result[brand].push({
+    name: cleanName,
+    brand,
+    filename: targetFilename,
+    originalExtension: previousManuals[targetFilename] || originalExt,
+    extension: '.pdf',
+    url: `${baseJsDelivr}${baseDir}/${brand}/${targetFilename}`,
+    previewUrl,
+    version: '1.0'
   });
 });
 
-// Write to manuals.json
+});
+
+// Write updated manuals.json
 fs.writeFileSync(outputFile, JSON.stringify(result, null, 2));
 console.log(`✅ Successfully generated ${outputFile}`);
