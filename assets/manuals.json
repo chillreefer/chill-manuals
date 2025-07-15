@@ -1497,16 +1497,6 @@
       "version": "1.0"
     },
     {
-      "name": "CIM 5 Service Manual",
-      "brand": "Starcool",
-      "filename": "CIM_5_Service_Manual.pdf",
-      "originalExtension": ".pdf",
-      "extension": ".pdf",
-      "url": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/manuals/Starcool/CIM_5_Service_Manual.pdf",
-      "previewUrl": "https://cdn.jsdelivr.net/gh/chillreefer/chill-manuals/assets/previews/Starcool/CIM_5_Service_Manual.png",
-      "version": "1.0"
-    },
-    {
       "name": "CIM 6 and CA Manual",
       "brand": "Starcool",
       "filename": "CIM_6_and_CA_Manual.pdf",
